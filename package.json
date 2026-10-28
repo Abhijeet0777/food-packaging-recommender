@@ -1,0 +1,25 @@
+{
+  "name": "food-packaging-recommender",
+  "version": "1.0.0",
+  "description": "AI-Based Intelligent Food Packaging Material Recommendation System for Food Commodities using Rule-Based Explainable AI and MongoDB Atlas",
+  "main": "run-all.js",
+  "scripts": {
+    "start": "node run-all.js",
+    "dev": "node run-all.js",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "food-packaging",
+    "explainable-ai",
+    "xai",
+    "expert-system",
+    "rule-based",
+    "mongodb-atlas",
+    "food-science"
+  ],
+  "author": "",
+  "license": "ISC"
+}
